@@ -72,7 +72,7 @@ function generateCircle(shape, color,type){
 
 function handleDefault(){
     const container = document.querySelector(".container");
-    container.textContent="Either you have entered wrong input or misspelled (No of shapes, shape type or shape color. Please check end retry.";  
+    container.textContent="Either you have entered wrong input or misspelled (No of shapes, shape type or shape color. Please check and retry.";  
 }
 
 function isInRange(value, min, max) {
